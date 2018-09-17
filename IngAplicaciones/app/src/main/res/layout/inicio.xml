@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="36dp" />
+    
+    <Button
+        android:id="@+id/boton_notificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:layout_marginTop="26dp"
+        android:text="Crear aviso"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/text_tipoAviso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de aviso a generar"
+        android:visibility="invisible"/>
+    <EditText
+        android:id="@+id/editT_tipoAviso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="tipo de aviso"
+        android:inputType="text"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/text_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:visibility="invisible"/>
+    <EditText
+        android:id="@+id/editT_contentTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="titulo"
+        android:inputType="text"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/text_contenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Texto de contenido"
+        android:visibility="invisible"/>
+    <EditText
+        android:id="@+id/editT_contentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contenido"
+        android:inputType="text"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/text_subText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtexto"
+        android:visibility="invisible"/>
+    <EditText
+        android:id="@+id/editT_subText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sub texto"
+        android:inputType="text"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/boton_enviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar aviso"
+        android:visibility="invisible"/>
+</LinearLayout>

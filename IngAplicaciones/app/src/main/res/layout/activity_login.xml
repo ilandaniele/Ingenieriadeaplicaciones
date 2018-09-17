@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.usuario.ingaplicaciones.Login"
+    android:orientation="vertical"
+    >
+
+
+        <TextView
+            android:id="@+id/text_iniciarsesion"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Iniciar sesión"
+            android:textSize="25sp"
+
+            />
+
+    <EditText
+        android:id="@+id/EditT_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/EditT_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/Btn_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Iniciar"
+        />
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checkedButton="@+id/español"
+    android:id="@+id/radio_grupo"
+    >
+    <RadioButton
+        android:id="@+id/español"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Español" />
+
+    <RadioButton
+        android:id="@+id/ingles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inglés" />
+
+    <RadioButton
+        android:id="@+id/frances"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Francés" />
+</RadioGroup>
+</LinearLayout>

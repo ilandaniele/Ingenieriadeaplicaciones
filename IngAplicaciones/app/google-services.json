@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "423985229926",
+    "firebase_url": "https://ingaplicaciones-8204d.firebaseio.com",
+    "project_id": "ingaplicaciones-8204d",
+    "storage_bucket": "ingaplicaciones-8204d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423985229926:android:d92f085cb2564d74",
+        "android_client_info": {
+          "package_name": "com.example.usuario.ingaplicaciones"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423985229926-ug6dvl6gkobcrq1b3d8o3pfa9kc53n04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbbJAJwhuns1Vta8v6IEvPArkCgPG1BBI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
